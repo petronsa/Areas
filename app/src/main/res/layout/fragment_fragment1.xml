@@ -1,0 +1,163 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.sgoliver.android.navigationdrawer.Fragment1">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/imageView"
+                android:background="@drawable/cuadrado"
+                android:layout_weight="1" />
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#fdfdfd">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/introducir_lado"
+                android:id="@+id/textView_ladocuadrado"
+                    android:theme="@style/estilo_texto"
+                android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:paddingLeft="16dp"
+                    android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editText_lado_cuadrado"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/rectangle" />
+
+
+
+                </LinearLayout>
+                <View style="@style/Separator"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fdfdfd">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado_area"
+                android:id="@+id/textView_resultado_cuadrado"
+                    style="@style/estilo_texto"
+                    android:paddingLeft="16dp"
+                    android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_resultado_area_cuadrado"
+                android:theme="@style/estilo_edit_text"
+                android:layout_weight="1" />
+
+
+
+                </LinearLayout>
+                <View style="@style/Separator" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fdfdfd">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/perimetro"
+                        android:id="@+id/textView_perimetro_cuadrado"
+                        style="@style/estilo_texto"
+                        android:paddingLeft="16dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText_resultado_perimetro"
+                        android:theme="@style/estilo_edit_text"
+                        android:layout_weight="1" />
+
+
+
+                </LinearLayout>
+
+                <View style="@style/Separator" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fdfdfd">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/diadonal"
+                        android:id="@+id/textView_diagonal_cuadrado"
+                        style="@style/estilo_texto"
+                        android:paddingLeft="16dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText_resultado_diagonal"
+                        android:theme="@style/estilo_edit_text"
+                        android:layout_weight="1" />
+
+
+
+                </LinearLayout>
+
+                <View style="@style/Separator" />
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fdfdfd"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/calcular"
+                    android:id="@+id/button_calcula_area_cuadrado"
+                    android:background="@drawable/boton_redondo"
+                    android:textColor="#fdfdfd" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+</FrameLayout>

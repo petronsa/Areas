@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Areas y Volumenes Calculadora</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="areas">Areas</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="triangulo">Triangulo</string>
+    <string name="volumenes">Volumenes</string>
+    <string name="cubo">Cubo</string>
+    <string name="esfera">Esfera</string>
+    <string name="introducir_lado">a =</string>
+    <string name="resultado_area">Area = </string>
+    <string name="calcular">Calcular</string>
+    <string name="perimetro">Perimetro = </string>
+    <string name="diadonal">D = </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
